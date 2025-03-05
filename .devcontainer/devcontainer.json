@@ -1,0 +1,8 @@
+{
+  "name": "Linux Desktop with RDP",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [3389],
+  "postCreateCommand": "echo 'Codespace is ready!'"
+}
